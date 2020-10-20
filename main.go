@@ -9,11 +9,11 @@ func main () {
 
 	multimedia := multimedias.ContenidoWeb{Contenidos: []multimedias.Multimedia{}}
 
-	fmt.Println("Multimedia")
 	//Aquí menú
 	var op uint = 1
 	for op != 0{
 		fmt.Println("")
+		fmt.Println("	CONTENIDOS MULTIMEDIA")
 		fmt.Println("1.- Agregar imagen")
 		fmt.Println("2.- Agregar audio")
 		fmt.Println("3.- Agregar video")
